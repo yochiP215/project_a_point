@@ -1,0 +1,15 @@
+table{
+    height: 724px;
+    width: 859px; 
+    position: absolute;
+    left: 187px;
+    top: 131px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:10px;
+    z-index:1 ;
+    border-radius: 10px;
+    opacity: 1;
+    background: #F1F4F7; ;
+}
