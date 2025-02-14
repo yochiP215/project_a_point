@@ -1,0 +1,207 @@
+/* /* .contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border: 1px solid #eee; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+    background-color: #fff; 
+  }
+  
+  .contact-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info {
+    margin-right: 20px; 
+  }
+  
+  .contact-icons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .contact-card img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer; 
+  }
+/*   
+  .contact-card:hover {
+    background-color: #f8f8f8;
+  }
+  
+  .contact-card img:hover {
+    opacity: 0.8;
+  } */
+
+
+
+
+/* .contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  } */
+
+/* .contact-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info {
+    margin-right: 20px;
+  }
+  
+  .contact-info h3 {
+    margin: 0 0 5px 0; 
+  }
+  
+  .contact-icons {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px; 
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact-card img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+ 
+  .contact-type {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .main-contact {
+    color: gold; 
+    margin-left: 5px;
+  }  */
+
+/* 
+  .list-container {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  
+  .list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .contact-table th, .contact-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .contact-table th {
+    background-color: #f3f4f6;
+  }
+   */
+
+/* .table-row {
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+  }
+  
+  .table-row:hover {
+    background-color: #f9fafb;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 12px;
+  }
+  
+  .contact-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .table-cell {
+    text-align: center;
+    vertical-align: middle; 
+  }
+  
+  .icon-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+   */
+.table-row {
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.table-row:hover {
+  background-color: #f9fafb;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  /* ממקם את האייקונים במרכז */
+  gap: 12px;
+}
+
+.contact-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.table-cell {
+  text-align: center;
+  vertical-align: middle;
+  /* ממקם את התוכן באמצע התא */
+}
+
+.icon-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.star-active {
+  background-color: black; /* רקע פנימי שחור */
+  mask-image: url("../../assets/Star 8.svg"); /* שמירה על צורת הכוכב */
+  -webkit-mask-image: url("../../assets/Star 8.svg"); /* שמירה על צורת הכוכב ב-webkit */
+}
+

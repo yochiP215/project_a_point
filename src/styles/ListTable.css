@@ -1,0 +1,139 @@
+/* .list-container {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-item {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    align-items: center;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+} */
+
+
+/* .list-container {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  
+  .list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .contact-table th, .contact-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .contact-table th {
+    background-color: #f3f4f6;
+  }
+   */
+
+
+/* .list-container {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  
+  .list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; 
+  }
+  
+  .contact-table th, .contact-table td {
+    padding: 16px;
+    text-align: center; 
+    vertical-align: middle; 
+  }
+  
+  .contact-table th {
+    background-color: #f3f4f6;
+  }
+   */
+/* .list-container {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    
+  } */
+
+
+
+.list-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  /* ממקם את כל התוכן בטבלה במרכז */
+}
+
+.contact-table th,
+.contact-table td {
+  padding: 16px;
+  text-align: center;
+  /* ממקם טקסטים במרכז העמודות */
+  vertical-align: middle;
+  /* ממקם תוכן באמצע התא */
+}
+
+.contact-table th {
+  background-color: #f3f4f6;
+}
+
+.contact-table,
+.contact-table th,
+.contact-table td {
+  border: none;
+}
